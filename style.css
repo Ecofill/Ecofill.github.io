@@ -298,3 +298,70 @@ footer {
     align-items: center;
   }
 }
+
+.weavers {
+    background-color: #fdf9f3;
+    padding: 4rem 2rem;
+    text-align: center;
+  }
+  .weavers .subtitle {
+    font-style: italic;
+    color: #70583f;
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+  }
+  .weaver-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+  }
+  .weaver-card {
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    max-width: 320px;
+    flex: 1 1 300px;
+    text-align: left;
+  }
+  .weaver-card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+  }
+  .weaver-card h4 {
+    margin: 0.5rem 0;
+    color: #4b3f2f;
+  }
+  .weaver-card .location {
+    font-size: 0.9rem;
+    color: #777;
+  }
+  .weaver-card blockquote {
+    font-style: italic;
+    color: #555;
+    margin: 1rem 0;
+  }
+  .weaver-card p {
+    font-size: 0.95rem;
+    margin-bottom: 1rem;
+  }
+  .weaver-card button {
+    padding: 0.6rem 1.2rem;
+    background-color: #a87842;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  .weaver-card button:hover {
+    background-color: #8a5f34;
+  }
+
+  @media (max-width: 768px) {
+    .weaver-card {
+      text-align: center;
+    }
+  }

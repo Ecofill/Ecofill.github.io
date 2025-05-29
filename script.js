@@ -91,3 +91,21 @@ document.addEventListener("DOMContentLoaded", function () {
   alert("Thank you for supporting local artistry!");
 }
 
+function manualSizeEntry() {
+  const input = prompt("Enter your custom size (e.g., Bust 34, Waist 28):");
+  if (input) {
+    alert("You entered: " + input);
+  }
+}
+
+function selectSize(size) {
+  const buttons = document.querySelectorAll('.size-buttons button');
+  buttons.forEach(btn => btn.classList.remove('selected'));
+
+  const selectedButton = document.getElementById(`size-${size}`);
+  if (selectedButton) {
+    selectedButton.classList.add('selected');
+    alert(`Selected Size: ${size}`);
+  }
+}
+

@@ -447,3 +447,36 @@ footer {
   background-color: #28a745;
   color: white;
 }
+
+@media (max-width: 768px) {
+  body {
+    padding: 1rem;
+  }
+
+  .try-before-rent {
+    flex-direction: column;
+    padding: 1.5rem;
+  }
+
+  .outfit-preview,
+  .size-options {
+    max-width: 100%;
+  }
+
+  .outfit-preview h2 {
+    font-size: 1.5rem;
+  }
+
+  .size-options h3 {
+    font-size: 1.2rem;
+  }
+
+  .manual-entry,
+  .auto-sizing {
+    padding: 0.8rem;
+  }
+
+  .size-buttons button {
+    padding: 0.4rem 0.9rem;
+  }
+}

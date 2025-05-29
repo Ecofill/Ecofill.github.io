@@ -42,32 +42,32 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const outfitData = {
       ysabel: {
-        img: "/assets/Ysabel.jpeg",
+        img: "Ysabel.jpeg",
         name: "Ysabel",
         desc: "Katcha & Inabel | PHP 500",
       },
       diego: {
-        img: "/assets/Diego.jpg",
+        img: "Diego.jpg",
         name: "Diego",
         desc: "Katcha & Inabel | PHP 500",
       },
       sinagtala: {
-        img: "/assets/Sinagtala.jpeg",
+        img: "Sinagtala.jpeg",
         name: "Sinagtala",
         desc: "Katcha & Inabel | PHP 500",
       },
       rosenda: {
-        img: "/assets/Rosenda.jpeg",
+        img: "Rosenda.jpeg",
         name: "Rosenda",
         desc: "Katcha & Inabel | PHP 500",
       },
       catalina: {
-        img: "/assets/Catalina.jpeg",
+        img: "Catalina.jpeg",
         name: "Catalina",
         desc: "Katcha & Inabel | PHP 500",
       },
       lorenza: {
-        img: "/assets/Lorenza.jpeg",
+        img: "Lorenza.jpeg",
         name: "Lorenza",
         desc: "Katcha & Inabel | PHP 500",
       },

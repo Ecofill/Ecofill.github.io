@@ -1,4 +1,3 @@
-/* Base Styles */
 * {
   margin: 0;
   padding: 0;
@@ -12,7 +11,6 @@ body {
   font-size: 16px;
 }
 
-/* Header */
 header {
   background-color: #ffffff;
   border-bottom: 2px solid #e5e5e5;
@@ -44,9 +42,8 @@ nav a:hover {
   color: #a87842;
 }
 
-/* Hamburger button styles */
 #hamburger {
-  display: none; /* hidden by default */
+  display: none;
   flex-direction: column;
   justify-content: space-around;
   width: 30px;
@@ -67,11 +64,10 @@ nav a:hover {
   border-radius: 2px;
 }
 
-/* Side Nav styles: slide in from right */
 .side-nav {
   position: fixed;
   top: 0;
-  right: -250px; /* hidden offscreen to the right */
+  right: -250px; 
   width: 250px;
   height: 100%;
   background-color: #fffdf6;
@@ -105,7 +101,6 @@ nav a:hover {
   outline: none;
 }
 
-/* Close button for side nav */
 #close-btn {
   background: none;
   border: none;
@@ -118,7 +113,6 @@ nav a:hover {
   outline: 2px solid #a87842;
 }
 
-/* Hero Section */
 .hero {
   background: linear-gradient(#fffdf6, #f3ede2);
   padding: 4rem 2rem;
@@ -135,7 +129,6 @@ nav a:hover {
   box-shadow: 0 4px 20px rgba(0,0,0,0.1);
 }
 
-/* Section Headings */
 main section h3 {
   text-align: center;
   font-size: 1.75rem;
@@ -146,7 +139,6 @@ main section {
   padding: 3rem 2rem;
 }
 
-/* About Section */
 .about p {
   max-width: 800px;
   margin: auto;
@@ -154,7 +146,6 @@ main section {
   text-align: center;
 }
 
-/* Browse Outfits */
 .browse .outfits {
   display: flex;
   justify-content: center;
@@ -180,7 +171,6 @@ main section {
   color: #4b3f2f;
 }
 
-/* Book Now */
 .book-container {
   display: flex;
   flex-wrap: wrap;
@@ -235,7 +225,6 @@ button:hover {
   background-color: #7d6030;
 }
 
-/* Weavers Section */
 .weavers p {
   max-width: 700px;
   margin: auto;
@@ -244,7 +233,6 @@ button:hover {
   color: #70583f;
 }
 
-/* Gallery Section */
 .gallery-images {
   display: flex;
   justify-content: center;
@@ -257,7 +245,6 @@ button:hover {
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
-/* Contact */
 .contact p {
   text-align: center;
   color: #4b3f2f;
@@ -265,7 +252,6 @@ button:hover {
   font-size: 1.1rem;
 }
 
-/* Footer */
 footer {
   text-align: center;
   padding: 1.5rem 0;
@@ -274,13 +260,12 @@ footer {
   font-weight: 600;
 }
 
-/* Responsive */
 @media (max-width: 768px) {
   nav ul.nav-links {
-    display: none; /* hide desktop nav links */
+    display: none; 
   }
   #hamburger {
-    display: flex; /* show hamburger on mobile */
+    display: flex; 
   }
   header {
     padding: 1.5rem 1rem;

@@ -14,7 +14,6 @@ closeBtn.addEventListener('click', () => {
   hamburger.setAttribute('aria-expanded', 'false');
 });
 
-// Optional: close nav when clicking a link inside side nav
 document.querySelectorAll('.side-link').forEach(link => {
   link.addEventListener('click', () => {
     sideNav.classList.remove('active');
@@ -23,7 +22,6 @@ document.querySelectorAll('.side-link').forEach(link => {
   });
 });
 
-// Example interactivity: show alert on form submit
 document.addEventListener("DOMContentLoaded", () => {
   const form = document.querySelector("form");
   form.addEventListener("submit", (e) => {
@@ -85,7 +83,6 @@ document.addEventListener("DOMContentLoaded", function () {
       updatePreview(selected);
     });
 
-    // Initial preview
     updatePreview(outfitSelect.value);
   });
 
